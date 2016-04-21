@@ -3,8 +3,9 @@
               android:orientation="horizontal"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp">
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+              android:layout_marginBottom="2dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +24,8 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/activity_main_scoreText"
         android:layout_gravity="center_vertical"
-        android:layout_weight="2"/>
+        android:layout_weight="2"
+        android:gravity="left"/>
 
 
     <Button

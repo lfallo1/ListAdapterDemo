@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.lancefallon.scorecard.adapters.HoleAdapter;
 import com.lancefallon.scorecard.models.Hole;
 
-public class MainActivity extends ListActivity {
+public class ListViewActivity extends ListActivity {
 
     public static final int TOTAL_HOLES = 18;
     private static final String HOLES = "HOLES";
